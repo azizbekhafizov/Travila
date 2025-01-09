@@ -1,0 +1,40 @@
+@import "./styles/sidebar";
+@import "./styles/header";
+@import "./styles/main";
+@import "./styles/footer";
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Bokor&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fredoka:wght@300..700&family=Fugaz+One&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Manrope;
+    transition: all 0.8s;
+  }
+  
+  :root {
+    --main_color: #ff7500;
+    --light_main_color: rgba(255, 117, 0, 0.2);
+    --bg-dark: rgba(37, 36, 32, 1);
+  }
+  
+  .container {
+    max-width: 1219px;
+    margin: auto;
+    padding: 0 20px;
+    width: 100%;
+  }
+  .container1 {
+    max-width: 1248px;
+    margin: auto;
+    width: 100%;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  
