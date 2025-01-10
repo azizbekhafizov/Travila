@@ -997,6 +997,12 @@ body.dark {
     text-align: center;
   }
 }
+@media (max-width: 591px) {
+  footer {
+    position: relative;
+    top: 1000px;
+  }
+}
 @media (max-width: 1400px) {
   .since .since-left h1 {
     font-size: 35px;
@@ -1292,6 +1298,11 @@ body.dark {
     flex-direction: column;
   }
 }
+@media (max-width: 591px) {
+  .footer {
+    margin-top: 350px;
+  }
+}
 @media (max-width: 616px) {
   .special {
     position: relative;
@@ -1312,6 +1323,10 @@ body.dark {
   .card-container {
     position: relative;
     top: 1200px;
+  }
+  .footer {
+    position: relative;
+    top: 1300px;
   }
 }
 @media (max-width: 600px) {

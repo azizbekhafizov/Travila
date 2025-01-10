@@ -426,6 +426,12 @@ footer{
     }
 }
 
+@media (max-width: 591px){
+.footer{
+margin-top: 350px;
+}
+}
+
 @media (max-width: 616px) {
     .special{
         position: relative;
@@ -450,6 +456,12 @@ footer{
     .card-container{
         position: relative;
         top: 1200px;
+    }
+
+
+    .footer{
+        position: relative;
+        top: 1300px;
     }
 }
 
