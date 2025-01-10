@@ -135,7 +135,7 @@
     .searched-top {
         h1 {
             text-align: center;
-            width: 775px;
+            width: 750px;
             margin: auto;
             font-weight: 800;
             font-size: 52px;
@@ -143,6 +143,7 @@
         }
 
         p {
+            width: 750px;
             text-align: center;
             margin: auto;
             font-family: 500;
@@ -157,8 +158,8 @@
         flex-wrap: wrap;
         justify-content: center;
         gap: 25px;
-        margin-top: 50px;
         margin: auto;
+        margin-top: 50px;
         .searched-card {
             border-radius: 16px;
             width: 288px;
@@ -327,7 +328,7 @@
         .top-img1 img {
             position: relative;
             top: -40px;
-            left: 250px;
+            // left: 250px;
         }
         button {
             width: 140px;
@@ -388,19 +389,16 @@
 
 .mountain {
     margin-top: 50px;
-    width: 1248px;
+    width: auto;
     height: 627px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    align-items: center;
 
     .card {
         border: 1px solid #E4E6E8;
-        flex-basis: calc(25% - 15px);
         height: 223px;
         border-radius: 10px;
-        overflow: hidden;
         display: flex;
         flex-direction: column;
         background: #fff;
@@ -432,13 +430,14 @@
 .special {
     display: flex;
     margin:50px auto;
+    flex-wrap: wrap;
     width: 1224px;
     height: 402px;
     .special-left{
         padding: 100px;
         height: 402px;
         background-color: #9DD3FB;
-        width: 50%;
+        width: 612px;
         button{
             width: 287px;
             height: 52px;

@@ -149,24 +149,80 @@ body.dark {
     display: none;
     cursor: pointer;
   }
+
+  @media (max-width: 1315px) {
+
+    .header{
+      height: 80px;
+    }
+    .left{
+      flex-direction: column;
+    }
+
+    .right{
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    .dropdown{
+      font-size: 12px;
+    }
+
+    .center{
+      font-size: 14px;
+    }
+
+    .right_head .navlinks {
+      gap: 8px;
+    }
+
+    .button-link button{
+      font-size: 10px;
+      width: 100px;
+    }
+  }
   
   @media (max-width: 1024px) {
     .left_head h1 {
       font-size: 1.4rem;
     }
+
+    .right_head{
+      gap: 8px;
+    }
     .right_head .navlinks {
-      gap: 10px;
+      gap: 8px;
     }
     .navlinks .link {
-      font-size: 14px;
+      font-size: 10px;
       /* gap: 10px; */
     }
     .navlinks .link a {
-      padding: 3px;
+      padding: 5px;
+      font-size: 12px;
+      line-height: 17px;
+      font-weight: 600;
+      position: relative;
+      color: var(--bg-dark);
     }
     .right_head .button-link button {
       font-size: 12px;
     }
+
+    .center{
+      font-size: 14px;
+      width: 400px;
+      text-align: center;
+      margin: auto;
+    }
+
+    .right_head{
+      flex-wrap: wrap;
+      margin: auto;
+      justify-content: center;
+    }
+
+
   }
   
   @media (max-width: 768px) {
@@ -175,6 +231,30 @@ body.dark {
     }
     .menu_icon {
       display: block;
+    }
+
+    .center{
+      width: 200px;
+    }
+  }
+
+  @media (max-width: 480px) {
+
+    .header{
+      height: 120px;
+    }
+
+    .left{
+      gap: 5px;
+    }
+    .header-icon{
+      font-size: 12px;
+
+    }
+
+    .center{
+      width: 100px;
+      font-size: 12px;
     }
   }
   
