@@ -683,6 +683,8 @@ body.dark {
 
 .since {
   display: flex;
+  justify-content: center;
+  gap: 45px;
   padding-top: 100px;
 }
 .since .since-left button {
@@ -710,13 +712,6 @@ body.dark {
   line-height: 32px;
   font-size: 20px;
   margin-bottom: 20px;
-}
-.since .since-left .since-bottom {
-  display: flex;
-  gap: 35px;
-}
-.since .since-left .since-bottom .since-card {
-  width: 142px;
 }
 .since .since-right {
   display: flex;
@@ -772,6 +767,7 @@ body.dark {
   margin-top: 100px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 20px;
 }
 .card-container button {
@@ -992,12 +988,51 @@ body.dark {
 
 @media (max-width: 1024px) {
   .footer {
+    height: auto;
     flex-direction: column;
     gap: 20px;
   }
   .footer .footer-column {
     margin: auto;
     text-align: center;
+  }
+}
+@media (max-width: 1400px) {
+  .since .since-left h1 {
+    font-size: 35px;
+    width: 470px;
+    line-height: 55px;
+  }
+  .since .since-left p {
+    width: 470px;
+  }
+  .since .since-left .since-bottom {
+    gap: 15px;
+  }
+}
+@media (max-width: 948px) {
+  .since {
+    position: relative;
+    top: 250px;
+  }
+  .treding {
+    margin-top: 300px;
+  }
+  .treding .treding-top h1 {
+    width: 430px;
+    font-size: 35px;
+    margin: auto;
+  }
+  .treding .treding-top p {
+    width: 370px;
+    margin: auto;
+  }
+  .treding .treding-wrapper img {
+    width: 450px;
+    height: 350px;
+    margin: auto;
+    -o-object-fit: contain;
+       object-fit: contain;
   }
 }
 @media (max-width: 1315px) {
@@ -1081,6 +1116,56 @@ body.dark {
     width: 612px;
     margin: auto;
   }
+  .since {
+    padding-top: 250px;
+    flex-direction: column;
+  }
+  .since .since-left {
+    text-align: center;
+    margin: auto;
+  }
+  .since .since-left button {
+    margin: auto;
+  }
+  .since .since-left h1 {
+    text-align: center;
+    margin: 15px auto;
+  }
+  .since .since-left p {
+    text-align: center;
+    margin: 15px auto;
+  }
+  .since .since-left .since-bottom {
+    margin-left: -200px;
+    gap: 15px;
+  }
+  .since .since-left .since-bottom .since-card h1 {
+    text-align: center;
+    margin: auto;
+  }
+  .since .since-left .since-bottom .since-card p {
+    text-align: center;
+    margin: auto;
+    padding-left: 200px;
+  }
+  .since .since-right {
+    margin: auto;
+    margin-top: 100px;
+  }
+  .trip .trip-top .trip-l h1 {
+    text-align: center;
+    font-size: 25px;
+    line-height: 45px;
+    width: 470px;
+    margin: auto;
+  }
+  .trip .trip-top .trip-l p {
+    width: 470px;
+    margin: auto;
+  }
+  footer {
+    margin-top: 450px;
+  }
 }
 @media (max-width: 1024px) {
   .head .head-bottom .some-wrapper {
@@ -1116,6 +1201,12 @@ body.dark {
     margin-top: 100px;
     justify-content: center;
     gap: 45px;
+  }
+  .customer .main-image {
+    display: none;
+  }
+  .customer .info {
+    flex-direction: column;
   }
 }
 @media (max-width: 768px) {
@@ -1192,11 +1283,35 @@ body.dark {
   .special .special-right img {
     width: 480px;
   }
+  .since .since-right {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+  }
+  .customer {
+    flex-direction: column;
+  }
 }
 @media (max-width: 616px) {
   .special {
     position: relative;
     top: 1150px;
+  }
+  .since {
+    position: relative;
+    top: 1300px;
+  }
+  .treding {
+    position: relative;
+    top: 1090px;
+  }
+  .customer {
+    position: relative;
+    top: 1150px;
+  }
+  .card-container {
+    position: relative;
+    top: 1200px;
   }
 }
 @media (max-width: 600px) {
@@ -1294,6 +1409,23 @@ body.dark {
     width: 370px;
     font-size: 18px;
     line-height: 35px;
+  }
+  .since .since-left h1 {
+    width: 370px;
+    font-size: 20px;
+  }
+  .since .since-left p {
+    width: 370px;
+    font-size: 16px;
+  }
+  .since .since-right {
+    margin-top: -30px;
+  }
+  .trip .trip-top .trip-l {
+    width: 370px;
+  }
+  .trip .trip-top .trip-l p {
+    font-size: 17px;
   }
 }
 * {

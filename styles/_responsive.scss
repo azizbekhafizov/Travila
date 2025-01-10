@@ -1,3 +1,57 @@
+@media (max-width: 1400px) {
+    .since{
+        .since-left{
+            h1{
+                font-size: 35px;
+                width: 470px;
+                line-height: 55px;
+            }
+
+            p{
+                width: 470px;
+
+            }
+
+            .since-bottom{
+                gap: 15px;
+            }
+        }
+    }
+}
+
+@media (max-width: 948px) {
+    .since{
+        position: relative;
+        top: 250px;
+    }
+
+    .treding{
+        margin-top: 300px;
+
+        .treding-top{
+            h1{
+                width: 430px;
+                font-size: 35px;
+                margin: auto;
+            }
+
+            p{
+                width: 370px;
+                margin: auto;
+            }
+        }
+
+        .treding-wrapper{
+            img {
+                width: 450px;
+                height: 350px;
+                margin: auto;
+                object-fit: contain;
+            }
+        }
+    }
+}
+
 @media (max-width: 1315px) {
     .head{
 
@@ -107,6 +161,76 @@
         margin: auto;
     }
 }
+
+.since{
+    padding-top: 250px;
+    flex-direction: column;
+
+    .since-left{
+        text-align: center;
+        margin: auto;
+
+        button{
+            margin: auto;
+        }
+
+        h1{
+            text-align: center;
+            margin:15px auto;
+        }
+        p{
+            text-align: center;
+            margin:15px auto;
+        }
+
+        .since-bottom{
+            margin-left: -200px;
+            gap: 15px;
+
+            .since-card{
+
+                h1{
+                    text-align: center;
+                    margin: auto;
+                }
+                p{
+                    text-align: center;
+                    margin: auto;
+                    padding-left: 200px;
+                }
+            }
+        }
+    }
+
+
+    .since-right{
+        margin: auto;
+        margin-top: 100px;
+    }
+}
+
+.trip{
+    .trip-top{
+        .trip-l{
+            h1{
+                text-align: center;
+                font-size: 25px;
+                line-height: 45px;
+                width: 470px;
+                margin: auto;
+            }
+
+            p{
+                width: 470px;
+                margin: auto;
+            }
+        }
+    }
+}
+
+footer{
+    margin-top: 450px;
+}
 }
 
 @media (max-width: 1024px) {
@@ -163,6 +287,17 @@
     margin-top: 100px;
     justify-content: center;
     gap: 45px;
+}
+
+.customer{
+    .main-image{
+        display: none;
+    }
+    .info{
+        flex-direction: column;
+
+
+    }
 }
 
 }
@@ -276,12 +411,45 @@
             width: 480px;
         }
     }
+
+    .since{
+        .since-right{
+            display: flex;
+            flex-direction: column;
+            gap: 45px;
+        }
+    }
+
+    .customer{
+    flex-direction: column;
+
+    }
 }
 
 @media (max-width: 616px) {
     .special{
         position: relative;
         top: 1150px;
+    }
+
+    .since{
+        position: relative;
+        top: 1300px;
+    }
+
+    .treding{
+        position: relative;
+        top: 1090px;
+    }
+
+    .customer{
+        position: relative;
+        top: 1150px;
+    }
+
+    .card-container{
+        position: relative;
+        top: 1200px;
     }
 }
 
@@ -429,6 +597,37 @@
                 line-height: 35px;
             }
         }
+    }
+
+    .since{
+        .since-left{
+            h1{
+                width: 370px;
+                font-size: 20px;
+            }
+
+            p{
+                width: 370px;
+                font-size: 16px;
+            }
+        }
+
+        .since-right{
+            margin-top: -30px;
+        }
+    }
+
+    .trip{
+        .trip-top{
+            .trip-l{
+                width: 370px;
+                p{
+                    font-size: 17px;
+                }
+            }
+        }
+
+
     }
 }
     

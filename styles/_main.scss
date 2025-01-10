@@ -465,6 +465,8 @@
 
 .since{
     display: flex;
+    justify-content: center;
+    gap: 45px;
     padding-top: 100px;
 
     .since-left{
@@ -496,13 +498,6 @@
             margin-bottom: 20px;
         }
 
-        .since-bottom{
-            display: flex;
-            gap: 35px;
-            .since-card{
-                width: 142px;
-            }
-        }
     }
 
     .since-right{
@@ -570,6 +565,7 @@
     margin-top: 100px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
 
     button{
