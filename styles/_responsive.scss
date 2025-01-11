@@ -463,6 +463,21 @@ margin-top: 350px;
         position: relative;
         top: 1300px;
     }
+
+    .trip .trip-top .trip-l{
+        position: relative;
+        top: 1200px;
+
+        h1{
+            text-align: center;
+            margin: auto;
+        }
+
+        p{
+            margin: auto;
+            text-align: center;
+        }
+    }
 }
 
 @media (max-width: 600px) {
@@ -640,6 +655,28 @@ margin-top: 350px;
         }
 
 
+    }
+
+
+    .trip .trip-top .trip-l h1{
+        width: 370px;
+        font-size: 20px;
+        line-height: 35px;
+
+    }
+
+    .trip .trip-top .trip-l p{
+        width: 370px;
+        font-size: 16px;
+    }
+
+    .treding .treding-wrapper .image1{
+        display: none;
+    }
+
+    .treding .treding-top h1{
+        width: 370px;
+        font-size: 25px;
     }
 }
     

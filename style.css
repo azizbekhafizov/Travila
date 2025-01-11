@@ -1328,6 +1328,18 @@ body.dark {
     position: relative;
     top: 1300px;
   }
+  .trip .trip-top .trip-l {
+    position: relative;
+    top: 1200px;
+  }
+  .trip .trip-top .trip-l h1 {
+    text-align: center;
+    margin: auto;
+  }
+  .trip .trip-top .trip-l p {
+    margin: auto;
+    text-align: center;
+  }
 }
 @media (max-width: 600px) {
   .head .head-wrapper h1 {
@@ -1441,6 +1453,22 @@ body.dark {
   }
   .trip .trip-top .trip-l p {
     font-size: 17px;
+  }
+  .trip .trip-top .trip-l h1 {
+    width: 370px;
+    font-size: 20px;
+    line-height: 35px;
+  }
+  .trip .trip-top .trip-l p {
+    width: 370px;
+    font-size: 16px;
+  }
+  .treding .treding-wrapper .image1 {
+    display: none;
+  }
+  .treding .treding-top h1 {
+    width: 370px;
+    font-size: 25px;
   }
 }
 * {
