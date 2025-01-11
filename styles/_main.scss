@@ -21,6 +21,13 @@
             font-weight: 700;
             line-height: 26px;
             text-align: center;
+
+            &:hover{
+                background: transparent;
+                // opacity: 0.3;
+                color: white;
+                border: 1px solid #ddd;
+            }
         }
 
         h1 {
@@ -74,6 +81,11 @@
                         font-size: 14px;
                     }
 
+                    .li1{
+                        background-color: black;
+                        color: white;
+                    }
+
                     li:hover {
                         color: white;
                         background-color: black;
@@ -116,7 +128,15 @@
                     height: 58px;
                     background-color: black;
                     color: white;
+                    font-weight: 700;
+                    font-size: 16px;
                     border-radius: 50px;
+
+                    &:hover{
+                        background-color: white;
+                        border: 1px solid #777;
+                        color: black;
+                    }
                     i {
                         margin-right: 8px;
                     }
@@ -169,6 +189,11 @@
             align-items: center;
             justify-content: center;
             gap: 20px;
+
+            &:hover{
+                transform: translateY(-12px);
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+            }
 
             span {
                 color: #737373;
@@ -228,13 +253,23 @@
                     font-size: 14px;
                     line-height: 22px;
                     font-weight: 500;
-                    border-radius: 50px;
+                    border-radius: 50px; 
+
+                    &:hover{
+                        background-color: black;
+                        color: white;
+                    }
+                }
+
+                .btn1{
+                    background-color: black;
+                    color: white;
                 }
             }
         }
 
         .tours-bottom {
-            margin-top: 50px;
+            padding-top: 80px;
             display: flex;
             flex-wrap: wrap;
             gap: 25px;
@@ -243,6 +278,11 @@
                 border-radius: 32px;
                 width: 390px;
                 height: 547px;
+
+                &:hover{
+                    transform: scale(1.03);
+                    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+                }
 
                 img {
                     border-radius: 32px;
@@ -312,6 +352,12 @@
                         border-radius: 50px;
                         background-color: #f2f4f6;
                         border: 1px solid #e4e6e8;
+
+
+                        &:hover{
+                            background-color: black;
+                            color: white;
+                        }
                     }
                 }
             }
@@ -322,6 +368,12 @@
 .forest {
     display: flex;
     gap: 50px;
+
+    .forest-left{
+        img:hover{
+            transform: translateY(15px);
+        }
+    }
 
     .forest-right {
         margin-right: -100px;
@@ -339,6 +391,12 @@
             font-size: 14px;
             font-weight: 700;
             line-height: 22px;
+
+            &:hover{
+                background-color: black;
+                color: white;
+
+            }
         }
 
         h1 {
@@ -361,7 +419,7 @@
 
 .cat-top {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
     .cat-left {
         h1 {
@@ -379,11 +437,18 @@
     }
 
     button{
+        margin-top: 25px;
         width: 154px;
         height: 52px;
+        font-weight: 700;
         border-radius: 50px;
         background-color: black;
         color: white;
+
+        &:hover{
+            background: transparent;
+            color: black;
+        }
     }
 }
 
@@ -392,6 +457,7 @@
     width: auto;
     height: 627px;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
 
@@ -402,6 +468,11 @@
         display: flex;
         flex-direction: column;
         background: #fff;
+
+        &:hover{
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+            transform: scale(1.03);
+        }
 
         .card-image {
             padding: 10px;
@@ -467,7 +538,7 @@
     display: flex;
     justify-content: center;
     gap: 45px;
-    padding-top: 100px;
+    padding-top: 50px;
 
     .since-left{
         button{
@@ -479,7 +550,13 @@
             font-size: 16px;
             line-height: 26px;
             border-radius: 50px;
+            transition: 0.5s linear;
             border: none;
+
+            &:hover{
+                background-color: transparent;
+                border: 1px solid gray;
+            }
         }
 
         h1{
@@ -502,6 +579,10 @@
 
     .since-right{
         display: flex;
+        
+        img:hover{
+            transform: translateY(12px);
+        }
 
         img:nth-child(2){
             margin-top: -40px;
@@ -531,10 +612,17 @@
         margin:50px auto;
         display: flex;
         flex-wrap: wrap;
+        gap: 5px;
         justify-content: center;
 
         img{
             padding: 10px;
+            border-radius: 32px;
+
+            &:hover{
+                transform: scale(1.02);
+                box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+            }
         }
     }
 }
@@ -561,6 +649,12 @@
 }
 }
 
+.customer{
+    .main-image:hover{
+        transform: translateY(-15px);
+    }
+}
+
 .card-container {
     margin-top: 100px;
     display: flex;
@@ -575,7 +669,7 @@
     }
   }
   .card {
-    width: 286px;
+    width: 316px;
     height: 515px;
     background-color: #fff;
     border-radius: 10px;
@@ -583,6 +677,11 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
+
+    &:hover{
+        transform: scale(1.03);
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    }
   }
   .card-image img{
     width: 100%;
@@ -625,6 +724,10 @@
     align-items: center;
     gap: 10px;
     margin-top: auto;
+
+    span{
+        font-weight: 600;
+    }
   }
   .author img {
     width: 30px;

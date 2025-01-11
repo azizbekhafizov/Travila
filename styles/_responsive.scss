@@ -228,6 +228,13 @@
     }
 }
 
+.categories{
+    .cat-top{
+        justify-content: center;
+        gap: 150px;
+    }
+}
+
 footer{
     margin-top: 450px;
 }
@@ -423,6 +430,13 @@ footer{
     .customer{
     flex-direction: column;
 
+    }
+
+    .categories{
+        .cat-top{
+            justify-content: center;
+            gap: 50px;
+        }
     }
 }
 

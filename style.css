@@ -297,6 +297,11 @@ body.dark {
   line-height: 26px;
   text-align: center;
 }
+.head .head-wrapper button:hover {
+  background: transparent;
+  color: white;
+  border: 1px solid #ddd;
+}
 .head .head-wrapper h1 {
   width: 1098.58px;
   margin: auto;
@@ -346,6 +351,10 @@ body.dark {
   line-height: 24px;
   font-size: 14px;
 }
+.head .head-bottom .some .some-l ul .li1 {
+  background-color: black;
+  color: white;
+}
 .head .head-bottom .some .some-l ul li:hover {
   color: white;
   background-color: black;
@@ -382,7 +391,14 @@ body.dark {
   height: 58px;
   background-color: black;
   color: white;
+  font-weight: 700;
+  font-size: 16px;
   border-radius: 50px;
+}
+.head .head-bottom .some-wrapper .some-card button:hover {
+  background-color: white;
+  border: 1px solid #777;
+  color: black;
 }
 .head .head-bottom .some-wrapper .some-card button i {
   margin-right: 8px;
@@ -428,6 +444,10 @@ body.dark {
   align-items: center;
   justify-content: center;
   gap: 20px;
+}
+.searched .searched-wrapper .searched-card:hover {
+  transform: translateY(-12px);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 .searched .searched-wrapper .searched-card span {
   color: #737373;
@@ -483,8 +503,16 @@ body.dark {
   font-weight: 500;
   border-radius: 50px;
 }
+.tours .tours-wrapper .tours-top .tours-r button:hover {
+  background-color: black;
+  color: white;
+}
+.tours .tours-wrapper .tours-top .tours-r .btn1 {
+  background-color: black;
+  color: white;
+}
 .tours .tours-wrapper .tours-bottom {
-  margin-top: 50px;
+  padding-top: 80px;
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
@@ -493,6 +521,10 @@ body.dark {
   border-radius: 32px;
   width: 390px;
   height: 547px;
+}
+.tours .tours-wrapper .tours-bottom .tourse-card:hover {
+  transform: scale(1.03);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 .tours .tours-wrapper .tours-bottom .tourse-card img {
   border-radius: 32px;
@@ -551,10 +583,17 @@ body.dark {
   background-color: #f2f4f6;
   border: 1px solid #e4e6e8;
 }
+.tours .tours-wrapper .tours-bottom .tourse-card .tource-card-text button:hover {
+  background-color: black;
+  color: white;
+}
 
 .forest {
   display: flex;
   gap: 50px;
+}
+.forest .forest-left img:hover {
+  transform: translateY(15px);
 }
 .forest .forest-right {
   margin-right: -100px;
@@ -573,6 +612,10 @@ body.dark {
   font-weight: 700;
   line-height: 22px;
 }
+.forest .forest-right button:hover {
+  background-color: black;
+  color: white;
+}
 .forest .forest-right h1 {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -590,7 +633,7 @@ body.dark {
 
 .cat-top {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .cat-top .cat-left h1 {
   font-size: 52px;
@@ -604,11 +647,17 @@ body.dark {
   line-height: 32px;
 }
 .cat-top button {
+  margin-top: 25px;
   width: 154px;
   height: 52px;
+  font-weight: 700;
   border-radius: 50px;
   background-color: black;
   color: white;
+}
+.cat-top button:hover {
+  background: transparent;
+  color: black;
 }
 
 .mountain {
@@ -616,6 +665,7 @@ body.dark {
   width: auto;
   height: 627px;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
 }
@@ -626,6 +676,10 @@ body.dark {
   display: flex;
   flex-direction: column;
   background: #fff;
+}
+.mountain .card:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  transform: scale(1.03);
 }
 .mountain .card .card-image {
   padding: 10px;
@@ -685,7 +739,7 @@ body.dark {
   display: flex;
   justify-content: center;
   gap: 45px;
-  padding-top: 100px;
+  padding-top: 50px;
 }
 .since .since-left button {
   width: 241px;
@@ -696,7 +750,12 @@ body.dark {
   font-size: 16px;
   line-height: 26px;
   border-radius: 50px;
+  transition: 0.5s linear;
   border: none;
+}
+.since .since-left button:hover {
+  background-color: transparent;
+  border: 1px solid gray;
 }
 .since .since-left h1 {
   margin-top: 10px;
@@ -715,6 +774,9 @@ body.dark {
 }
 .since .since-right {
   display: flex;
+}
+.since .since-right img:hover {
+  transform: translateY(12px);
 }
 .since .since-right img:nth-child(2) {
   margin-top: -40px;
@@ -739,10 +801,16 @@ body.dark {
   margin: 50px auto;
   display: flex;
   flex-wrap: wrap;
+  gap: 5px;
   justify-content: center;
 }
 .treding .treding-wrapper img {
   padding: 10px;
+  border-radius: 32px;
+}
+.treding .treding-wrapper img:hover {
+  transform: scale(1.02);
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 
 .trip {
@@ -763,6 +831,10 @@ body.dark {
   line-height: 32px;
 }
 
+.customer .main-image:hover {
+  transform: translateY(-15px);
+}
+
 .card-container {
   margin-top: 100px;
   display: flex;
@@ -777,7 +849,7 @@ body.dark {
 }
 
 .card {
-  width: 286px;
+  width: 316px;
   height: 515px;
   background-color: #fff;
   border-radius: 10px;
@@ -785,6 +857,10 @@ body.dark {
   overflow: hidden;
   display: flex;
   flex-direction: column;
+}
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 
 .card-image img {
@@ -834,6 +910,9 @@ body.dark {
   align-items: center;
   gap: 10px;
   margin-top: auto;
+}
+.author span {
+  font-weight: 600;
 }
 
 .author img {
@@ -1169,6 +1248,10 @@ body.dark {
     width: 470px;
     margin: auto;
   }
+  .categories .cat-top {
+    justify-content: center;
+    gap: 150px;
+  }
   footer {
     margin-top: 450px;
   }
@@ -1296,6 +1379,10 @@ body.dark {
   }
   .customer {
     flex-direction: column;
+  }
+  .categories .cat-top {
+    justify-content: center;
+    gap: 50px;
   }
 }
 @media (max-width: 591px) {
