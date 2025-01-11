@@ -1669,4 +1669,13 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
 }/*# sourceMappingURL=style.css.map */
