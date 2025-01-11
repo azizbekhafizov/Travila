@@ -1,18 +1,17 @@
 @media (max-width: 1400px) {
-    .since{
-        .since-left{
-            h1{
+    .since {
+        .since-left {
+            h1 {
                 font-size: 35px;
                 width: 470px;
                 line-height: 55px;
             }
 
-            p{
+            p {
                 width: 470px;
-
             }
 
-            .since-bottom{
+            .since-bottom {
                 gap: 15px;
             }
         }
@@ -20,28 +19,28 @@
 }
 
 @media (max-width: 948px) {
-    .since{
+    .since {
         position: relative;
         top: 250px;
     }
 
-    .treding{
+    .treding {
         margin-top: 300px;
 
-        .treding-top{
-            h1{
+        .treding-top {
+            h1 {
                 width: 430px;
                 font-size: 35px;
                 margin: auto;
             }
 
-            p{
+            p {
                 width: 370px;
                 margin: auto;
             }
         }
 
-        .treding-wrapper{
+        .treding-wrapper {
             img {
                 width: 450px;
                 height: 350px;
@@ -53,288 +52,195 @@
 }
 
 @media (max-width: 1315px) {
-    .head{
-
-        .head-wrapper{
-            h1{
+    .head {
+        .head-wrapper {
+            h1 {
                 font-size: 35px;
                 width: 765px;
             }
 
-            p{
+            p {
                 width: 765px;
             }
         }
-        .head-bottom{
+        .head-bottom {
             margin: 50px auto;
             width: auto;
             height: 230px;
 
-            .some{
+            .some {
                 justify-content: center;
                 gap: 105px;
                 width: 750px;
                 margin: auto;
             }
 
-            .some-wrapper{
+            .some-wrapper {
                 width: 850px;
                 justify-content: center;
                 gap: 45px;
             }
-            
-       }
-       }
+        }
+    }
 
-       .tours{
+    .tours {
         height: auto;
-        .tours-wrapper{
-            .tours-bottom{
+        .tours-wrapper {
+            .tours-bottom {
                 justify-content: center;
                 margin: auto;
             }
-            .tours-top{
+            .tours-top {
                 text-align: center;
                 flex-direction: column;
                 gap: 15px;
                 justify-content: center;
                 margin: auto;
 
-               .tours-l{
-                h1{
-                    width: 370px;
-                    font-size: 38px;
-                    margin: auto;
+                .tours-l {
+                    h1 {
+                        width: 370px;
+                        font-size: 38px;
+                        margin: auto;
+                    }
+                    p {
+                        width: 470px;
+                        font-size: 20px;
+                        margin: auto;
+                    }
                 }
-                p{
-                    width: 470px;
-                    font-size: 20px;
-                    margin: auto;
-                }
-               }
 
-               .tours-r{
-                width: 750px;
-                margin: auto;
-               }
+                .tours-r {
+                    width: 750px;
+                    margin: auto;
+                }
             }
-       }
-}
-
-.forest{
-    .forest-right{
-        .top-img1 img{
-            width: 340px;
-
-        }
-        h1{
-            font-size: 35px;
-            line-height: 45px;
-            width: 350px;
-        }
-
-        p{
-            width: 350px;
-
         }
     }
-}
 
-.special{
-    padding-top: 420px;
-    width: 622px;
-    flex-direction: column;
-    justify-content: center;
-    margin: auto;
-    display: block;
+    .forest {
+        .forest-right {
+            .top-img1 img {
+                width: 340px;
+            }
+            h1 {
+                font-size: 35px;
+                line-height: 45px;
+                width: 350px;
+            }
 
-    .special-left{
-        margin: auto;
+            p {
+                width: 350px;
+            }
+        }
     }
 
-    .special-right{
+    .special {
+        padding-top: 420px;
+        width: 622px;
+        flex-direction: column;
+        justify-content: center;
         margin: auto;
-    }
+        display: block;
 
-    .special-right img{
-        width: 612px;
-        margin: auto;
-    }
-}
-
-.since{
-    padding-top: 250px;
-    flex-direction: column;
-
-    .since-left{
-        text-align: center;
-        margin: auto;
-
-        button{
+        .special-left {
             margin: auto;
         }
 
-        h1{
-            text-align: center;
-            margin:15px auto;
-        }
-        p{
-            text-align: center;
-            margin:15px auto;
+        .special-right {
+            margin: auto;
         }
 
-        .since-bottom{
-            margin-left: -200px;
-            gap: 15px;
+        .special-right img {
+            width: 612px;
+            margin: auto;
+        }
+    }
 
-            .since-card{
+    .since {
+        padding-top: 250px;
+        flex-direction: column;
 
-                h1{
-                    text-align: center;
-                    margin: auto;
-                }
-                p{
-                    text-align: center;
-                    margin: auto;
-                    padding-left: 200px;
-                }
+        .since-left {
+            text-align: center;
+            margin: auto;
+
+            button {
+                margin: auto;
             }
-        }
-    }
 
-
-    .since-right{
-        margin: auto;
-        margin-top: 100px;
-    }
-}
-
-.trip{
-    .trip-top{
-        .trip-l{
-            h1{
+            h1 {
                 text-align: center;
-                font-size: 25px;
-                line-height: 45px;
-                width: 470px;
-                margin: auto;
+                margin: 15px auto;
+            }
+            p {
+                text-align: center;
+                margin: 15px auto;
             }
 
-            p{
-                width: 470px;
-                margin: auto;
+            .since-bottom {
+                margin-left: -200px;
+                gap: 15px;
+
+                .since-card {
+                    h1 {
+                        text-align: center;
+                        margin: auto;
+                    }
+                    p {
+                        text-align: center;
+                        margin: auto;
+                        padding-left: 200px;
+                    }
+                }
+            }
+        }
+
+        .since-right {
+            margin: auto;
+            margin-top: 100px;
+        }
+    }
+
+    .trip {
+        .trip-top {
+            .trip-l {
+                h1 {
+                    text-align: center;
+                    font-size: 25px;
+                    line-height: 45px;
+                    width: 470px;
+                    margin: auto;
+                }
+
+                p {
+                    width: 470px;
+                    margin: auto;
+                }
             }
         }
     }
-}
 
-.categories{
-    .cat-top{
-        justify-content: center;
-        gap: 150px;
+    .categories {
+        .cat-top {
+            justify-content: center;
+            gap: 150px;
+        }
     }
-}
 
-footer{
-    margin-top: 450px;
-}
+    footer {
+        margin-top: 450px;
+    }
 }
 
 @media (max-width: 1024px) {
-    .head{
+    .head {
+        .head-bottom {
+            .some-wrapper {
+                width: 750px;
 
-     .head-bottom{
-
-      .some-wrapper{
-        width: 750px;
-
-        .some-card{
-            h4{
-                font-size: 14px;
-                text-align: center;
-            }
-        }
-    }
-}
-    
-}
-
-.forest{
-    flex-direction: column;
-    justify-content: center;
-
-    .forest-right{
-        margin: auto;
-        text-align: center;
-    }
-
-    .forest-left{
-        margin: auto;
-
-
-    }
-}
-
-.cat-top{
-    margin-top: 100px;
-    justify-content: center;
-    gap: 45px;
-
-    .cat-left{
-        h1{
-            margin: auto;
-            text-align: center;
-            width: 470px;
-            font-size: 35px;
-        }
-    }
-}
-
-.mountain{
-    margin-top: 100px;
-    justify-content: center;
-    gap: 45px;
-}
-
-.customer{
-    .main-image{
-        display: none;
-    }
-    .info{
-        flex-direction: column;
-
-
-    }
-}
-
-}
-
-@media (max-width: 768px) {
-    .head{
-
-        .head-wrapper{
-            h1{
-                font-size: 25px;
-                width: 550px;
-                line-height: 45px;
-            }
-            p{
-                font-size: 20px;
-                width: 570px;
-                line-height: 25px;
-            }
-        }
-
-        .head-bottom{
-            .some{
-                width: 600px;
-                gap: 10px;
-            }
-            .some-wrapper{
-                width: 600px;
-                gap: 25px;
-                .some-card{
-                    h4{
+                .some-card {
+                    h4 {
                         font-size: 14px;
                         text-align: center;
                     }
@@ -343,151 +249,226 @@ footer{
         }
     }
 
-    .searched .searched-top{
-        h1{
+    .forest {
+        flex-direction: column;
+        justify-content: center;
+
+        .forest-right {
+            margin: auto;
+            text-align: center;
+        }
+
+        .forest-left {
+            margin: auto;
+        }
+    }
+
+    .cat-top {
+        margin-top: 100px;
+        justify-content: center;
+        gap: 45px;
+
+        .cat-left {
+            h1 {
+                margin: auto;
+                text-align: center;
+                width: 470px;
+                font-size: 35px;
+            }
+        }
+    }
+
+    .mountain {
+        margin-top: 100px;
+        justify-content: center;
+        gap: 45px;
+    }
+
+    .customer {
+        .main-image {
+            display: none;
+        }
+        .info {
+            flex-direction: column;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .head {
+        .head-wrapper {
+            h1 {
+                font-size: 25px;
+                width: 550px;
+                line-height: 45px;
+            }
+            p {
+                font-size: 20px;
+                width: 570px;
+                line-height: 25px;
+            }
+        }
+
+        .head-bottom {
+            .some {
+                width: 600px;
+                gap: 10px;
+            }
+            .some-wrapper {
+                width: 600px;
+                gap: 25px;
+                .some-card {
+                    h4 {
+                        font-size: 14px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+
+    .searched .searched-top {
+        h1 {
             font-size: 30px;
             width: 460px;
         }
 
-        p{
+        p {
             width: 470px;
         }
     }
 
-    .tours{
-        .tours-wrapper{
-            .tours-top{
-                .tours-r{
+    .tours {
+        .tours-wrapper {
+            .tours-top {
+                .tours-r {
                     width: 550px;
                 }
             }
 
-            .tours-bottom{
+            .tours-bottom {
                 margin-top: 100px;
             }
         }
     }
 
-    .forest{
-        .forest-left{
+    .forest {
+        .forest-left {
             margin: auto;
 
-            img{
+            img {
                 margin: auto;
             }
         }
     }
 
-    .cat-top{
+    .cat-top {
         margin-top: 100px;
         justify-content: center;
         gap: 45px;
         flex-direction: column;
-    
-        .cat-left{
-            h1{
+
+        .cat-left {
+            h1 {
                 margin: auto;
                 text-align: center;
                 width: 470px;
                 font-size: 35px;
             }
 
-            p{
+            p {
                 text-align: center;
                 margin: auto;
             }
         }
 
-        button{
+        button {
             width: 80%;
             height: 50px;
             margin: auto;
         }
     }
 
-    .special{
+    .special {
         position: relative;
         top: 100px;
-        .special-left{
+        .special-left {
             width: 480px;
             padding-top: 20px;
-
         }
 
-        .special-right img{
+        .special-right img {
             width: 480px;
         }
     }
 
-    .since{
-        .since-right{
+    .since {
+        .since-right {
             display: flex;
             flex-direction: column;
             gap: 45px;
         }
     }
 
-    .customer{
-    flex-direction: column;
-
+    .customer {
+        flex-direction: column;
     }
 
-    .categories{
-        .cat-top{
+    .categories {
+        .cat-top {
             justify-content: center;
             gap: 50px;
         }
     }
 }
 
-@media (max-width: 591px){
-.footer{
-margin-top: 350px;
-}
+@media (max-width: 591px) {
+    .footer {
+        margin-top: 350px;
+    }
 }
 
 @media (max-width: 616px) {
-    .special{
+    .special {
         position: relative;
         top: 1150px;
     }
 
-    .since{
+    .since {
         position: relative;
         top: 1300px;
     }
 
-    .treding{
+    .treding {
         position: relative;
         top: 1090px;
     }
 
-    .customer{
+    .customer {
         position: relative;
         top: 1150px;
     }
 
-    .card-container{
+    .card-container {
         position: relative;
         top: 1200px;
     }
 
-
-    .footer{
+    .footer {
         position: relative;
         top: 1300px;
     }
 
-    .trip .trip-top .trip-l{
+    .trip .trip-top .trip-l {
         position: relative;
         top: 1200px;
 
-        h1{
+        h1 {
             text-align: center;
             margin: auto;
         }
 
-        p{
+        p {
             margin: auto;
             text-align: center;
         }
@@ -495,68 +476,65 @@ margin-top: 350px;
 }
 
 @media (max-width: 600px) {
-    .head{
-
-        .head-wrapper{
-          h1{
-            width: 470px;
-            font-size: 25px;
-          }  
-          p{
-            width: 470px;
-            font-size: 18px;
-          }  
+    .head {
+        .head-wrapper {
+            h1 {
+                width: 470px;
+                font-size: 25px;
+            }
+            p {
+                width: 470px;
+                font-size: 18px;
+            }
         }
-        .head-bottom{
+        .head-bottom {
             margin: 10px auto;
             margin-top: 50px;
             height: 300px;
-            .some{
+            .some {
                 width: 470px;
                 gap: 5px;
 
-                .some-r{
+                .some-r {
                     display: none;
                 }
             }
 
-            .some-wrapper{
+            .some-wrapper {
                 flex-wrap: wrap;
                 width: 470px;
-            border: none;
-
+                border: none;
             }
         }
     }
 
-    .searched{
+    .searched {
         margin-top: 250px;
     }
 
-    .tours{
-        .tours-wrapper{
-            .tours-top{
-
-                .tours-l{
-                    p{
+    .tours {
+        .tours-wrapper {
+            .tours-top {
+                .tours-l {
+                    p {
                         width: 370px;
                     }
                 }
-                .tours-r{
+                .tours-r {
                     width: 450px;
-                    button{
+                    button {
                         margin: 15px;
                     }
                 }
             }
 
-            .tours-bottom{
+            .tours-bottom {
                 margin-top: 100px;
 
                 .tourse-card {
                     width: 370px;
 
-                    img{
+                    img {
                         width: 100%;
                     }
                 }
@@ -565,74 +543,72 @@ margin-top: 350px;
     }
 }
 
-
 @media (max-width: 480px) {
-    .head{
-        .head-wrapper{
-            h1{
+    .head {
+        .head-wrapper {
+            h1 {
                 margin-top: 10px;
                 width: 370px;
                 line-height: 40px;
             }
-            p{
+            p {
                 margin-top: 10px;
                 width: 370px;
                 line-height: 30px;
             }
         }
 
-        .head-bottom{
+        .head-bottom {
             height: 400px;
-            .some{
+            .some {
                 width: 370px;
-                .some-l{
-                    ul{
+                .some-l {
+                    ul {
                         gap: 5px;
                     }
                 }
-                
             }
 
-            .some-wrapper{
+            .some-wrapper {
                 width: 370px;
             }
         }
     }
 
-    .searched{
+    .searched {
         margin-top: 350px;
 
-        .searched-top{
-            h1{
+        .searched-top {
+            h1 {
                 width: 370px;
                 font-size: 25px;
                 line-height: 40px;
             }
-            p{
+            p {
                 font-size: 17px;
                 width: 370px;
             }
         }
     }
 
-    .tours{
-        .tours-wrapper{
-            .tours-top{
-                .tours-r{
+    .tours {
+        .tours-wrapper {
+            .tours-top {
+                .tours-r {
                     width: 370px;
                 }
             }
         }
     }
 
-    .cat-top{
-        .cat-left{
-            h1{
+    .cat-top {
+        .cat-left {
+            h1 {
                 width: 370px;
                 font-size: 25px;
                 line-height: 35px;
             }
-            p{
+            p {
                 width: 370px;
                 font-size: 18px;
                 line-height: 35px;
@@ -640,57 +616,52 @@ margin-top: 350px;
         }
     }
 
-    .since{
-        .since-left{
-            h1{
+    .since {
+        .since-left {
+            h1 {
                 width: 370px;
                 font-size: 20px;
             }
 
-            p{
+            p {
                 width: 370px;
                 font-size: 16px;
             }
         }
 
-        .since-right{
+        .since-right {
             margin-top: -30px;
         }
     }
 
-    .trip{
-        .trip-top{
-            .trip-l{
+    .trip {
+        .trip-top {
+            .trip-l {
                 width: 370px;
-                p{
+                p {
                     font-size: 17px;
                 }
             }
         }
-
-
     }
 
-
-    .trip .trip-top .trip-l h1{
+    .trip .trip-top .trip-l h1 {
         width: 370px;
         font-size: 20px;
         line-height: 35px;
-
     }
 
-    .trip .trip-top .trip-l p{
+    .trip .trip-top .trip-l p {
         width: 370px;
         font-size: 16px;
     }
 
-    .treding .treding-wrapper .image1{
+    .treding .treding-wrapper .image1 {
         display: none;
     }
 
-    .treding .treding-top h1{
+    .treding .treding-top h1 {
         width: 370px;
         font-size: 25px;
     }
 }
-    
